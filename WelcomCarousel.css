@@ -1,0 +1,69 @@
+.school_girl {
+  width: 100%;
+  height: 400px;
+  position: relative;
+}
+
+.carousel-indicators li {
+  width: 15px;
+  height: 15px;
+  border-radius: 100%;
+
+  margin: 0 20px;
+  background-color: transparent;
+  border: 1px solid white;
+  margin-bottom: 30px;
+
+  /* 
+  
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent; */
+}
+
+.carousel-item {
+  height: 450px;
+}
+
+.carousel-item img {
+  height: 450px;
+}
+
+.carousel-caption {
+  width: 100%;
+  height: 100%;
+  left: 0 !important;
+}
+
+.carousel-caption h5 {
+  text-align: left;
+  margin-left: 5%;
+  margin-top: 12%;
+  font-size: 35px;
+}
+.carousel-caption h6 {
+  text-align: left;
+  margin-left: 5%;
+
+  font-size: 35px;
+}
+.carousel-caption p {
+  text-align: left;
+  margin-left: 5%;
+  max-width: 33%;
+  font-size: 20px;
+}
+
+
+@media screen and (min-width:480px) and (max-width:768px)  {
+  .carousel-container {
+    width :160vw;
+  }
+}
+
+@media screen and (min-width:768px) and (max-width:1200px) {
+  .carousel-container {
+    width :127vw;
+  }
+}
+
+
